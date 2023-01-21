@@ -37,7 +37,7 @@ func UnixDomainSocketStreamServer() {
 				StatusCode: 200,
 				ProtoMajor: 1,
 				ProtoMinor: 0,
-				Body:       ioutil.NopCloser(strings.NewReader("hello from server")),
+				Body:       ioutil.NopCloser(strings.NewReader("Hello World\n")),
 			}
 			response.Write(conn)
 			conn.Close()
