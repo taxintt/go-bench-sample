@@ -1,7 +1,7 @@
 # go-bench-sample
 
 ## bench
-```
+```bash
 go test -bench .
 ```
 
